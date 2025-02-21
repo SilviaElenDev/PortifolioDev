@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Jura';
+    overflow-x: hidden;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+body a:hover{
+    text-shadow: white 0 0 10px;
+}
+
+.conteiner-max{
+    max-width: 1424px;
+    height: auto;
+    margin: auto;
+    background-color: rebeccapurple;
+}
+
+section{
+    position: relative;
+    width:100%;
+    margin: auto;
+    height: 100vh;
+}
+
+.flutuante{
+    animation: flutuante 5s infinite, surgir 5s, luzes 5s infinite;
+}
+
+
+@keyframes flutuante{
+    0%{
+        padding-top:0px;
+    }
+    50%{
+        padding-top: 5%;
+    }
+    100%{
+        padding-top: 0px;
+    }
+}
+
+@keyframes surgir{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes luzes{
+    0%{text-shadow: 0px 0px 0px white;}
+    50%{text-shadow: 0px 0px 10px white;}
+    100%{text-shadow: 0px 0px 0px white;}
+}
+
+@keyframes bolhasAnimação{
+    0%{
+        left:-1000px ;
+        right:-1000px;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d400ff;
+    border-radius: 10px;
+    box-shadow: #df3dff 0 0 10px;
+}

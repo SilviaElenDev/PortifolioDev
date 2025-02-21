@@ -1,0 +1,129 @@
+.bolhas{
+    position: absolute;
+    animation: bolhasAnimação 5s;
+}
+
+
+#bolha0 img{
+    width: 13vw;
+    max-width: 238px;
+}
+
+#bolha0{
+    top:10vw;
+    right: -6%;
+}
+
+
+#bolha1 img{
+    width: 9.5vw;
+    max-width: 175px;
+}
+
+#bolha1{
+    top: -4.5vw;
+    left: 29%;
+}
+
+#bolha2 img{
+    width:6vw ;
+    max-width: 110px;
+}
+
+#bolha2{
+    top: -2.5vw;
+    left: 39%;
+}
+
+#bolha3 img{
+    width: 4.5vw;
+    max-width:75px;
+}
+
+#bolha3{
+    top: -12.6vw;
+    right: 34%;
+    transform: rotate(-30deg);
+}
+
+#bolha4 img{
+    width: 3vw;
+    max-width: 50px;
+}
+
+#bolha4 {
+    top:5.5vw;
+    right:16%;
+}
+
+#bolha5 img{
+    width: 3vw;
+    max-width: 55px;
+}
+
+#bolha5 {
+    top: 7vw;
+    left: 35%;
+}
+
+#bolha6 img{
+    width: 5.5vw;
+    max-width: 100px;
+}
+
+#bolha6 {
+    top:6vw ;
+    right:35%;
+}
+
+#bolha7 img{
+    width: 13vw;
+    max-width: 238px;
+}
+
+#bolha7{
+    top:10vw;
+    left: -5%;
+}
+
+#bolha8 img{
+    width:4vw;
+    max-width:60px;
+}
+
+#bolha8 {
+    bottom: 8.4vw;
+    right: 40.5%;
+}
+
+#bolha9 img{
+    width:3.5vw ;
+    max-width: 65px;
+}
+
+#bolha9 {
+    right: 15%;
+    bottom: 8.5vw;
+}
+
+#bolha10 img{
+    width: 6vw;
+    max-width: 110px;
+}
+
+#bolha10{
+    transform: rotate(130deg);
+    bottom: -1vw;
+    left: 17%;
+}
+
+
+#bolha11 img{
+    width: 3vw;
+    max-width: 50px;
+}
+
+#bolha11{
+    left: 23%;
+    bottom: 8vw;
+}

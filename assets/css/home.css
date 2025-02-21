@@ -1,0 +1,106 @@
+.title{
+    width: 65vw;
+    height: 11vw;
+    position: absolute;
+    left:calc(50% - 32.5vw);
+    top: calc(50% - 5vw);
+    display: flex;
+    justify-content: center;
+}
+
+.bolha-title img{
+    position: absolute;
+    top: -5.5vw;
+    left: -1%;
+    width: 25vw;
+    max-width: 640px;
+}
+
+.bolha-title2 img{
+    width: 5vw;
+    position: absolute;
+    top: -2vw;
+    right: 11.5%;
+}
+
+.title-subtitle{
+    z-index: 1;
+}
+
+.title-subtitle h1{
+    font-size: 4.37vw;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Avayx Regular';
+    letter-spacing: 15px;
+}
+
+.title-subtitle h2{
+    z-index: 1;
+    text-align: center;
+    font-family: 'Avayx Regular';
+    letter-spacing: 15px;
+    margin-top: 20px;
+    font-size: 1.5vw;
+    font-weight:normal;
+}
+
+
+nav {
+    position: fixed;
+    z-index: 3;
+    left: 4.5vw;
+    top: 2vw;
+}
+
+.menu{
+    width: 85px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: surgir 5s;
+}
+
+.bar{
+    width: 60px;
+    height: 5px;
+    margin: 8px 2px;
+    background-color: #D400FF;
+   
+}
+
+.menu:hover .bar{
+    box-shadow: 0 0 10px #d70eff;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.listNav{
+    width: 150px;
+    padding-inline-start:15px;
+    display: none;
+}
+
+
+li:hover{
+    text-shadow:0 0 10px white;
+    font-size: 25px;
+}
+
+li{
+    font-size: 20px;
+    line-height: 50px;
+    font-family:'Jura';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
