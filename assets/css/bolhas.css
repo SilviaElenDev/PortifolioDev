@@ -11,7 +11,7 @@
 
 #bolha0{
     top:10vw;
-    right: -6%;
+    right: -17%;
 }
 
 
@@ -32,7 +32,7 @@
 
 #bolha2{
     top: -2.5vw;
-    left: 39%;
+    left: 43%;
 }
 
 #bolha3 img{
@@ -83,7 +83,7 @@
 
 #bolha7{
     top:10vw;
-    left: -5%;
+    left: -17%;
 }
 
 #bolha8 img{
@@ -102,7 +102,7 @@
 }
 
 #bolha9 {
-    right: 15%;
+    right: 10%;
     bottom: 8.5vw;
 }
 
@@ -114,7 +114,7 @@
 #bolha10{
     transform: rotate(130deg);
     bottom: -1vw;
-    left: 17%;
+    left: 5%;
 }
 
 
@@ -124,6 +124,141 @@
 }
 
 #bolha11{
-    left: 23%;
+    left: 12%;
     bottom: 8vw;
+}
+
+
+
+/*Section Sobre*/
+
+
+#bolha12 img{
+    width:13.5vw ;
+    max-width: 245px;
+}
+
+#bolha12{
+    bottom:1vw;
+}
+
+#bolha13 img{
+    width: 16.5vw;
+    max-width: 300px;
+}
+
+#bolha13 {
+    top: -11vw;
+    right: 10%;
+}
+
+#bolha14 img{
+    width: 6.5vw;
+    max-width: 120px;
+}
+
+#bolha14 {
+    top: -7vw;
+    left: 35%;
+}
+
+#bolha15 img {
+    width: 3.2vw;
+    max-width: 60px;
+}
+
+#bolha15 {
+    bottom: 3vw;
+    right: -7%;
+    
+}
+
+#bolha16 img {
+    width: 3.8vw;
+    max-width: 70px;
+}
+
+#bolha16{
+    bottom: -3vw;
+    right: -10%;
+}
+
+#bolha17 img {
+    width: 4.35vw;
+    max-width: 80px;
+}
+
+#bolha17 {
+    bottom:-8vw;
+    right: -4%;
+}
+
+
+
+/*Section Habilidades*/
+
+
+
+
+#bolha18 img {
+    width: 19.1vw;
+    max-width: 350px;
+}
+
+#bolha18 {
+    right: -10%;
+    transform: rotate(180deg);
+}
+
+#bolha19 img{
+    width: 2.7vw;
+    max-width:50px ;
+}
+
+#bolha19 {
+    bottom:11vw;
+    left: 8%;
+}
+
+#bolha20 img{
+    width: 1.6vw;
+    max-width:30px ;
+}
+
+#bolha20 {
+    bottom: 8.2vw;
+    left: 11%;
+}
+
+#bolha21 img{
+    width: 5vw;
+    max-width:90px;
+}
+
+#bolha21 {
+    bottom: 1.6vw;
+    left: 8%;
+    transform:rotate(140deg);
+}
+
+#bolha22 img{
+    width: 4.6vw;
+    max-width: 85px;
+}
+
+#bolha22{
+    transform: rotate(220deg);
+    top:  -2vw;
+    left: 35%;
+    
+}
+
+#bolha23 img{
+    width: 16.5vw;
+    max-width: 300px;
+}
+
+#bolha23 {
+    bottom:-5vw;
+    left: -6%;
 }
