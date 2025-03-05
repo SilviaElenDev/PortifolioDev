@@ -1,6 +1,6 @@
 .title{
     width: 65vw;
-    height: 11vw;
+    height: auto;
     position: absolute;
     left:calc(50% - 32.5vw);
     top: calc(50% - 5vw);
@@ -54,7 +54,9 @@ nav {
 }
 
 .menu{
-    width: 85px;
+    width:4.66vw ;
+    max-width:85px;
+    min-width: 60px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -65,7 +67,7 @@ nav {
 .bar{
     width: 60px;
     height: 5px;
-    margin: 8px 2px;
+    margin: 0.44vw 0.11vw;
     background-color: #d400ff;
    
 }
@@ -89,14 +91,14 @@ ul{
 }
 
 
-li:hover{
+a:hover{
     text-shadow:0 0 10px white;
     font-size: 25px;
 }
 
 li{
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 1.2vw;
+    line-height: 3.7vw;
     font-family:'Jura';
 }
 

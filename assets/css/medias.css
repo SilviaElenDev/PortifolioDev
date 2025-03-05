@@ -1,0 +1,835 @@
+/*LAPTOP PEQUENO*/
+
+@media screen and (max-width:1025px){
+    .bar{
+        width:50px;
+    }
+    .liConteiner a{
+        font-size: 1.5vw;
+    }
+    .bolha-title2 img{
+        right: 4.5%;
+    }
+    .subtitle h2{
+        font-size: 3.5vw;
+    }
+    .descrição p{
+        font-size: 1.5vw;
+    }
+    .slider-box .slider-box-text p{
+        font-size: 1.5vw;
+    }
+    footer .direitos{
+        font-size:1.5vw;
+    }
+    footer .conteiner-section .contato h2{
+        font-size:2vw;
+    }
+    .contato ul li p, .contato ul li a{
+        font-size: 1.5vw;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width:426px) and (max-width:768px){
+    html{
+        width: 100vw;
+    }
+    .bar{
+        margin-bottom: 5px;
+    }
+    .liConteiner a{
+        font-size: 1.8vw;
+    }
+    .title{
+        left:calc(50% - 37.5vw);
+        width: 75vw;
+    }
+    .title-subtitle h1, .title-subtitle h2{
+        letter-spacing: 2vw;
+    }
+    #Habilidades .descrição{
+        padding-left: 0;
+        padding-right:18vw;
+    }
+    .descrição{
+        padding-left: 18vw;
+    }
+    .descrição p{
+        font-size: 1.8vw;
+    }
+    .slider-box {
+        width: 60vw;
+    }
+    .Slider::before{
+        width:20vw;
+    }
+    .Slider::after{
+        width:20vw;
+    }
+    .slider-box .slider-box-text p{
+        font-size: 1.8vw;
+    }
+    .back i, .next i{
+        font-size: 5.5vw;
+    }
+    footer .direitos{
+        font-size:1.8vw;
+    }
+    footer .conteiner-section .contato h2{
+        font-size:2.5vw;
+    }
+    .contato ul li p, .contato ul li a{
+        font-size: 1.8vw;
+    }
+    .bolha-title img {
+        width: 30vw;
+        left: -2%;
+    }
+    .bolha-title2 img{
+        right: 4.5%;
+    }
+    #bolha0{
+        display: none;
+        top:30vh;
+    }
+    #bolha1 img{
+        width: 9.5vw;
+        max-width: 175px;
+    }
+    
+    #bolha1{
+        top: -4.5vw;
+        left: 29%;
+    }
+    
+    #bolha2 img{
+        width:8vw ;
+        max-width: 110px;
+    }
+    
+    #bolha2{
+        top: -3vw;
+        left: 40%;
+    }
+    
+    #bolha3 img{
+        width: 6.5vw;
+        max-width:75px;
+    }
+    
+    #bolha3{
+        top: -18.6vw;
+        right: 34%;
+        transform: rotate(-30deg);
+    }
+    
+    #bolha4 img{
+        width: 4vw;
+        max-width: 50px;
+    }
+    
+    #bolha4 {
+        top:10.5vw;
+        right:16%;
+    }
+    
+    #bolha5 img{
+        width: 4vw;
+        max-width: 55px;
+    }
+    
+    #bolha5 {
+        top: 4vw;
+        left: 38%;
+    }
+    
+    #bolha6 img{
+        width: 4.5vw;
+        max-width: 100px;
+    }
+    
+    #bolha6 {
+        top:15vw ;
+        right:35%;
+    }
+    #bolha7{
+        display: none;
+        top:18vw;
+    }
+    #bolha8 img{
+        width:4vw;
+        max-width:60px;
+    }
+    
+    #bolha8 {
+        bottom: 8.4vw;
+        right: 40.5%;
+    }
+    
+    #bolha9 img{
+        width:4.5vw ;
+        max-width: 65px;
+    }
+    #bolha9 {
+        right: 10%;
+        bottom: 15.5vw;
+    }
+    #bolha10 img{
+        width: 7vw;
+        max-width: 110px;
+    }
+    #bolha10{
+        transform: rotate(130deg);
+        bottom: 1vw;
+        left: 5%;
+    }
+    #bolha11 img{
+        width: 4vw;
+        max-width: 50px;
+    }
+    #bolha11{
+        left: 10%;
+        bottom: 11vw;
+    }
+    .subtitle h2{
+        font-size: 4vw;
+    }
+    #bolha12 img {
+        width: 18vw;
+    }
+    #bolha13 img{
+        width: 18.5vw;
+        max-width: 300px;
+    }
+    #bolha13 {
+        top: -18vw;
+        right: 10%;
+    }
+    #bolha18 img{
+        width: 25vw;
+    }
+    #bolha23 img{
+        width: 23vw;
+    }
+    
+}
+
+/*MOBILE L*/
+
+@media screen and (min-width:320px) and (max-width:425px){
+    html{
+        width: 100vw;
+    }
+    ::-webkit-scrollbar{
+        width: 0px; 
+    }
+    .liConteiner a{
+        font-size: 3vw;
+        line-height: 25px;
+    }
+    .listNav{
+        background-color: rgb(133, 1, 138);
+        padding-inline-start:0px;
+        margin-left:10px;
+        margin-top: 10px;
+        border-radius: 0 10px 10px 10px;
+        padding: 10px;
+        
+    }
+    .menu{
+        margin-top: 20px;
+    }
+    .menu .bar{
+        width: 40px;
+        margin-bottom: 5px;
+    }
+    .title{
+        left:calc(50% - 40vw);
+        top: calc(50% - 15vw);
+        width: 80vw;
+    }
+    .title h1{
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 7vw;
+        letter-spacing:6px;
+    }
+    .title h2{
+        margin-top: 13px;
+        font-size: 3vw;
+        letter-spacing: 3px;
+    }
+    .subtitle h2{
+        font-size: 5.5vw;
+        letter-spacing: 2vw;
+    }
+    #Projetos .conteiner-section .text .subtitle h2{
+        margin-left:-15vw;
+    }
+
+    #Habilidades .icons{
+        width: 40%;
+    }
+    #Habilidades .icon img{
+        width:10vw;
+        height: 10vw;
+        margin: 0.2vw;
+    }
+    #Habilidades .icon{
+        width: 10.5vw;
+        height: 10.5vw;
+        margin:0.2vw;
+    }
+
+    #Habilidades .descrição{
+        padding-left: 0;
+        padding-right:20vw;
+        padding-top: 5vw;
+    }
+    .descrição{
+        padding-left: 15vw;
+        padding-top: 3vw;
+    }
+    .descrição p{
+        font-size: 3.5vw;
+    }
+    .slider-box {
+        border-radius: 10px;
+        width: 100vw;
+    }
+    .Slider::before{
+        width:0vw;
+    }
+    .Slider::after{
+        width:0vw;
+    }
+    .slider-box-text h2{
+        font-size: 4vw;
+    }
+    .slider-box .slider-box-text p{
+        font-size: 3.5vw;
+    }
+    .controles{
+        top: 38%;
+    }
+    .back i, .next i{
+        font-size: 8.5vw;
+    }
+    footer .conteiner-section{
+        display: block;
+    }
+    footer .conteiner-section .contato{
+        margin-bottom:30px;
+    }
+    footer .conteiner-section .contato li{
+        line-height: 20px;
+    }
+
+    footer .conteiner-section .contato-navegação{
+        display: none;
+    }
+    footer .direitos{
+        margin-top: 100px;
+        font-size:3vw;
+    }
+    footer .conteiner-section .contato h2{
+        font-size:4vw;
+    }
+    .contato ul li p, .contato ul li a{
+        font-size: 3vw;
+    }
+    .bolha-title img {
+        width: 45vw;
+        left: -8%;
+        top:-7vw
+    }
+    .bolha-title2 img{
+        width: 8vw;
+        right: -5%;
+    }
+    #bolha0 img{
+        display: none;
+        width: 16vw;
+    }
+    #bolha0{
+        top:50vw;
+    }
+    #bolha1 img{
+        width: 13.5vw;
+    }
+    #bolha1{
+        top: -5vw;
+        left: 29%;
+    }
+    #bolha2 img{
+        width:11vw;
+    }
+    #bolha2{
+        top: -3.5vw;
+        left: 45%;
+    }
+    #bolha3 img{
+        width: 10.5vw;
+    }
+    #bolha3{
+        top: -30vw;
+        right: 20%;
+        transform: rotate(-30deg);
+    }
+    #bolha4 img{
+        width: 6vw;
+    }
+    #bolha4 {
+        top:30.5vw;
+        right:26%;
+    }
+    #bolha5 img{
+        width: 6vw;
+    }
+    #bolha5 {
+        top: 25vw;
+        left: 15%;
+    }
+    #bolha6 img{
+        width: 6.5vw;
+    }
+    #bolha6 {
+        top:10vw;
+        right:50%;
+    }
+    #bolha7 img{
+        display: none;
+    }
+    #bolha7{
+        top:18vw;
+    }
+    #bolha8 img{
+        width:6vw;
+    }
+    #bolha8 {
+        bottom: 40.4vw;
+        right: 45.5%;
+    }
+    #bolha9 img{
+        width:7.5vw;
+    }
+    #bolha9 {
+        right: 10%;
+        bottom: 30.5vw;
+    }
+    #bolha10 img{
+        width: 10vw;
+    }
+    #bolha10{
+        transform: rotate(130deg);
+        bottom: 5vw;
+        left: 5%;
+    }
+    #bolha11 img{
+        width: 7vw;
+    }
+    #bolha11{
+        left: 13%;
+        bottom: 20vw;
+    }
+    #bolha12 img {
+        width: 25vw;
+    }
+    #bolha12{
+        top: -15vw;
+        left: -10%;
+    }
+    #bolha13 img{
+        width: 30.5vw;
+    }
+    #bolha13 {
+        top: -35vw;
+        right: 15%;
+    }
+    #bolha14 img{
+        width: 6.5vw;
+        display: none;
+    }
+    #bolha14 {
+        top: -7vw;
+        left: 35%;
+    }
+    #bolha15 img {
+        width: 6.2vw;
+    }
+    #bolha15 {
+        bottom: -5vw;
+        right: 1%;
+    }
+    #bolha16 img {
+        width: 5.8vw;
+    }
+    #bolha16{
+        bottom: -15vw;
+        right: -5%;
+    }
+    #bolha17 img {
+        width: 5.35vw;
+    }
+    #bolha17 {
+        bottom:-25vw;
+        right: 5%;
+    }
+    #bolha18 img{
+        width: 35vw;
+    }
+    #bolha18{
+        top:-20vw;
+        right: -10%;
+    }
+    #bolha19 img{
+        width: 6.7vw;
+    }
+    #bolha19 {
+        bottom:11vw;
+        left: 8%;
+    }
+    #bolha20 img{
+        width: 5.6vw;
+    }
+    #bolha20 {
+        bottom: 2.2vw;
+        left: 11%;
+    }
+    #bolha21 img{
+        width: 8vw;
+    }
+    #bolha21 {
+        bottom: -7.6vw;
+        left: 8%;
+        transform:rotate(140deg);
+    }
+    #bolha22 img{
+        width: 8.6vw;
+    }
+    #bolha22{
+        transform: rotate(220deg);
+        top:  -2vw;
+        left: 30%; 
+    }
+    #bolha23 img{
+        width: 35vw;
+    }
+    #bolha23{
+        top:-18vw;
+        left: -20%;
+    }
+}
+
+
+
+/*MOBILE S*/
+
+@media screen and (min-width:0px) and (max-width:320px){
+    html{
+        width: 100vw;
+    }
+    ::-webkit-scrollbar{
+        width: 0px; 
+    }
+    .liConteiner a{
+        font-size: 5vw;
+        line-height: 25px;
+    }
+    .listNav{
+        background-color: rgb(133, 1, 138);
+        padding-inline-start:0px;
+        margin-left:10px;
+        margin-top: 10px;
+        border-radius: 0 10px 10px 10px;
+        padding: 10px;
+        
+    }
+    .menu{
+        margin-top: 20px;
+    }
+    .menu .bar{
+        width: 40px;
+        margin-bottom: 5px;
+    }
+    .title{
+        left:calc(50% - 40vw);
+        top: calc(50% - 15vw);
+        width: 90vw;
+    }
+    .title h1{
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 6.8vw;
+        letter-spacing:6px;
+    }
+    .title h2{
+        margin-top: 13px;
+        font-size: 3vw;
+        letter-spacing: 3px;
+    }
+    .subtitle h2{
+        font-size: 6vw;
+        letter-spacing: 2vw;
+    }
+
+    #Projetos .conteiner-section .text .subtitle h2{
+        margin-left:-20vw;
+    }
+
+    #Habilidades .icons{
+        width: 40%;
+    }
+    #Habilidades .icon img{
+        width:10vw ;
+        height: 10vw;
+        margin: 0.2vw;
+    }
+    #Habilidades .icon{
+        width: 10.5vw;
+        height: 10.5vw;
+        margin:0.2vw;
+    }
+    #Habilidades .descrição{
+        padding-left: 0;
+        padding-right:20vw;
+        padding-top: 10px;
+    }
+    .descrição{
+        padding-left: 21vw;
+    }
+    .descrição p{
+        font-size: 4.5vw;
+    }
+    .slider-box{
+        width: 100vw;
+    }
+    .Slider::before{
+        width:0vw;
+    }
+    .Slider::after{
+        width:0vw;
+    }
+    .slider-box{
+        width: 100vw;
+    }
+    .slider-box-text h2{
+        font-size: 5vw;
+    }
+    .slider-box .slider-box-text p{
+        font-size: 4.4vw;
+    }
+    .controles{
+        top: 37.5%;
+    }
+    .back i, .next i{
+        font-size: 10.5vw;
+    }
+    footer .conteiner-section{
+        display: block;
+    }
+    footer .conteiner-section .contato{
+        margin-bottom: 50px;
+    }
+    footer .conteiner-section .contato li{
+        line-height: 20px;
+    }
+
+    footer .conteiner-section .contato-navegação{
+        display: none;
+    }
+    footer .direitos{
+        margin-top:150px;
+        font-size:4.5vw;
+    }
+    footer .conteiner-section .contato h2{
+        font-size:5.5vw;
+    }
+    .contato ul li p, .contato ul li a{
+        font-size: 4.8vw;
+    }
+    .bolha-title img {
+        width: 50vw;
+        left: -8%;
+        top:-7vw
+    }
+    .bolha-title2 img{
+        width: 10vw;
+        right: 10%;
+    }
+    #bolha0 img{
+        display: none;
+        width: 16vw;
+    }
+    #bolha0{
+        top:50vw;
+    }
+    #bolha1 img{
+        width: 16.5vw;
+    }
+    #bolha1{
+        top: -5vw;
+        left: 29%;
+    }
+    #bolha2 img{
+        width:16vw;
+    }
+    #bolha2{
+        top: -3.5vw;
+        left: 45%;
+    }
+    #bolha3 img{
+        width: 13.5vw;
+    }
+    #bolha3{
+        top: -39vw;
+        right: 10%;
+        transform: rotate(-30deg);
+    }
+    #bolha4 img{
+        width: 8vw;
+    }
+    #bolha4 {
+        top:50.5vw;
+        right:26%;
+    }
+    #bolha5 img{
+        width: 8vw;
+    }
+    #bolha5 {
+        top: 30vw;
+        left: 15%;
+    }
+    #bolha6 img{
+        width: 8.5vw;
+    }
+    #bolha6 {
+        top:14vw;
+        right:45%;
+    }
+    #bolha7 img{
+        display: none;
+    }
+    #bolha7{
+        top:18vw;
+    }
+    #bolha8 img{
+        width:10vw;
+    }
+    #bolha8 {
+        bottom: 50.4vw;
+        right: 45.5%;
+    }
+    #bolha9 img{
+        width:9.5vw;
+    }
+    #bolha9 {
+        right: 10%;
+        bottom: 30.5vw;
+    }
+    #bolha10 img{
+        width: 15vw;
+    }
+    #bolha10{
+        transform: rotate(130deg);
+        bottom: 1vw;
+        left: 5%;
+    }
+    #bolha11 img{
+        width: 9vw;
+    }
+    #bolha11{
+        left: 15%;
+        bottom: 25vw;
+    }
+    #bolha12 img {
+        width: 30vw;
+    }
+    #bolha12{
+        top: -15vw;
+        left: -10%;
+    }
+    #bolha13 img{
+        width: 35.5vw;
+    }
+    #bolha13 {
+        top: -45vw;
+        right: 10%;
+    }
+    #bolha14 img{
+        width: 6.5vw;
+        display: none;
+    }
+    #bolha14 {
+        top: -7vw;
+        left: 35%;
+    }
+    #bolha15 img {
+        width: 6.2vw;
+    }
+    #bolha15 {
+        bottom: -5vw;
+        right: 1%;
+    }
+    #bolha16 img {
+        width: 5.8vw;
+    }
+    #bolha16{
+        bottom: -15vw;
+        right: -5%;
+    }
+    #bolha17 img {
+        width: 5.35vw;
+    }
+    #bolha17 {
+        bottom:-25vw;
+        right: 5%;
+    }
+    #bolha18 img{
+        width: 40vw;
+    }
+    #bolha18{
+        top:-23vw;
+        right: -15%;
+    }
+    #bolha19 img{
+        width: 6.7vw;
+    }
+    #bolha19 {
+        bottom:11vw;
+        left: 8%;
+    }
+    #bolha20 img{
+        width: 5.6vw;
+    }
+    #bolha20 {
+        bottom: 2.2vw;
+        left: 11%;
+    }
+    #bolha21 img{
+        width: 8vw;
+    }
+    #bolha21 {
+        bottom: -7.6vw;
+        left: 8%;
+        transform:rotate(140deg);
+    }
+    #bolha22 img{
+        width: 8.6vw;
+    }
+    #bolha22{
+        transform: rotate(220deg);
+        top:  -2vw;
+        left: 30%; 
+    }
+    #bolha23 img{
+        width: 35vw;
+    }
+    #bolha23{
+        top:-18vw;
+        left: -15%;
+    }
+}
+

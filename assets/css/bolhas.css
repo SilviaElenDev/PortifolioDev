@@ -1,8 +1,14 @@
+.bolhasBody{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .bolhas{
     position: absolute;
     animation: bolhasAnimação 5s;
 }
-
 
 #bolha0 img{
     width: 13vw;
@@ -10,8 +16,8 @@
 }
 
 #bolha0{
-    top:10vw;
-    right: -17%;
+    top:27vh;
+    right: -6vw;
 }
 
 
@@ -82,8 +88,8 @@
 }
 
 #bolha7{
-    top:10vw;
-    left: -17%;
+    top:27vh;
+    left:-6vw;
 }
 
 #bolha8 img{

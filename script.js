@@ -11,19 +11,21 @@ menu.addEventListener('click',() => {
 
 
 let sliderContainer = document.querySelector('.slider-container')
+let sliderBox = document.querySelector('.slider-box')
 let next = document.querySelector('.next')
 let back = document.querySelector('.back')
 
 
 
-let position = 0; 
-
+var position = 0;
 
 back.addEventListener('click', () => {
-    if (position >= -41){
-        position -= 41;
+    
+    let width = sliderBox.offsetWidth;
+    if (position >= -width){
+        position -= width;
         sliderContainer.style.transition = 'transform 1s'
-        sliderContainer.style.transform = `translateX(${position}vw)`
+        sliderContainer.style.transform = `translateX(${position}px)`
     }else{
         return;
     }
@@ -31,12 +33,13 @@ back.addEventListener('click', () => {
 })
 
 next.addEventListener('click', () => {
-    if(position <= +41){
-        position += 41;
+
+    let width = sliderBox.offsetWidth;
+    if(position <= width){
+        position += width;
         sliderContainer.style.transition = 'transform 1s'
-        sliderContainer.style.transform = `translateX(${position}vw)`
+        sliderContainer.style.transform = `translateX(${position}px)`
     }else{
         return;
     }
-    
 })

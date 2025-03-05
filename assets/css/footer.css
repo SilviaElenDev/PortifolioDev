@@ -3,31 +3,27 @@ footer{
 }
 
 footer .direitos{
+    margin-top: 8.2vw;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
-.contatos-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+footer .conteiner-section{
+    justify-content: space-around;
+    flex-direction: row;
     border-top: 1px solid rgba(255, 255, 255, 0.459);
-    padding-top: 50px;
+    padding: 2.7vw 2.7vw;
+    align-items: normal;
 }
 
-.contatos-container h2{
+footer .conteiner-section h2{
     font-family: 'Avayx Regular';
     color: #d400ff;
     margin-bottom: 20px;
+    font-size: 1.6vw;
 }
 
-.contato{
-    font-size: 20px;
-}
-
-.contato p:hover{
-    font-size: 20px;
-    text-shadow: none;
+.contato p, a{
+    font-size: 1.2vw;
 }
 

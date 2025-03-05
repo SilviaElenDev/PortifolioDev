@@ -34,7 +34,6 @@ strong:hover{
     text-shadow:#d400ff 0 0 10px;
 }
 
-
 .flutuante{
     animation: flutuante 5s infinite, surgir 5s, luzes 5s infinite;
 }
